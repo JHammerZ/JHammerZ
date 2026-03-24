@@ -30,6 +30,9 @@ I am **Joshua Hamilton**, a verified **Master Architect** specializing in the go
 | **Protocol Spec** | `H-FDI v1.0.3` | [Technical Specs](https://jhammerz.github.io) |
 
 ---
+<!-- TIKTOK-STATS:START -->
+**Community Node:** `150,000+ Verified Humans`
+<!-- TIKTOK-STATS:END -->
 
 ## 🛠️ Technical Identity
 ```json
