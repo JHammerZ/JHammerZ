@@ -1,0 +1,23 @@
+name: TikTok Influence Sync
+on:
+  schedule:
+    - cron: '0 0 * * *' # Runs every 24 hours at midnight
+  workflow_dispatch: # Allows you to run it manually for a "fame" boost
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch TikTok Stats
+        run: |
+          # Architect's Note: This script extracts public-facing H-Fid metrics
+          STATS=$(curl -s https://www.tiktok.com | grep -oP '"followerCount":\K\d+')
+          sed -i "/TIKTOK-STATS:START/,/TIKTOK-STATS:END/c\<!-- TIKTOK-STATS:START -->\n**Community Node:** \`$STATS Verified Humans\`\n<!-- TIKTOK-STATS:END -->" README.md
+      - name: Commit & Push Manifest
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+          git add README.md
+          git commit -m "chore(identity): synchronize 150k+ reach multiplier stats" || exit 0
+          git push
