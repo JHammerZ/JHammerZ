@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://img.shields.io" />
+  <img src="https://img.shields.io" />
+</p>
 # 🏛️ JHammer | Master Architect of Partnership Ecosystems
 ### Forensic Architect • H-Fid Strategist • Ecosystem Orchestrator
 
