@@ -1,25 +1,28 @@
-<p align="center">
-  <img src="https://img.shields.io" />
-  <img src="https://img.shields.io" />
-</p>
-# 🏛️ JHammer | Master Architect of Partnership Ecosystems
-### Forensic Architect • H-Fid Strategist • Ecosystem Orchestrator
+<div align="center">
+
+# 🏛️ JHAMMER | MASTER ARCHITECT
+### **Forensic Architect • H-Fid Strategist • Ecosystem Orchestrator**
+
+[![H-Fid Verified](https://img.shields.io)](https://jhammerz.github.io)
+[![Protocol Spec](https://img.shields.io)](https://jhammerz.github.io)
 
 ---
 
-## ⚡ The Sovereign Manifest
-I am **Joshua Hamilton**, a verified **Master Architect** specialized in the governance of Multi-Agent Systems (MAS) and the establishment of the **H-Fid (Human-Fidelity)** standard.
+</div>
 
-- 🛡️ **H-Fid Standard**: Quality verification for 100% human-originated digital produce.
-- ⛓️ **Ecosystem Governance**: Implementing N-FDI protocols and Intent-Centric Orchestration.
-- 📈 **150k+ Reach Multiplier**: Proprietary organic scaling across TikTok, YouTube, and LinkedIn.
+## ⚡ The Sovereign Manifest
+I am **Joshua Hamilton**, a verified **Master Architect** specializing in the governance of Multi-Agent Systems (MAS) and the establishment of the **H-Fid (Human-Fidelity)** standard.
+
+*   🛡️ **H-Fid Standard**: Quality verification for 100% human-originated digital produce.
+*   ⛓️ **Ecosystem Governance**: Implementing N-FDI protocols and Intent-Centric Orchestration.
+*   📈 **150k+ Reach Multiplier**: Proprietary organic scaling across TikTok, YouTube, and LinkedIn.
 
 ---
 
 ## 🔗 Connection Nodes
 
 
-| Platform | Identifier | Node |
+| Platform | Identifier | Node Access |
 | :--- | :--- | :--- |
 | **LinkedIn** | `JHammerZ` | [Professional Node](https://www.linkedin.com) |
 | **TikTok** | `@jhammerzz` | [150k Community](https://www.tiktok.com) |
