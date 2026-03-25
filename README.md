@@ -2,6 +2,7 @@
 
 <img src="https://img.shields.io" /> <img src="https://img.shields.io" />
 
+
 ---
 
 ## ⚡ The Sovereign Manifest
