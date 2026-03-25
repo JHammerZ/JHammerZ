@@ -1,0 +1,1 @@
+{ "mcpServers": { "manifest-server": { "command": "node", "args": ["C:/Users/joshu/public-mirror/main.min.js"], "env": { "NODE_ENV": "production" } } } } 

@@ -1,0 +1,1 @@
+# ??? System Manifest | JHammerZecho.echo ## ??? Architecture Overviewecho This manifest governs the high-fidelity semantic architecture for the JHammerZ ecosystem.echo - **Status:** Active Deploymentecho - **Protocol:** Sovereign-MD-v2
