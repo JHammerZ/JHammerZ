@@ -1,0 +1,1 @@
+# ADR 001: Implementation of H-FID (Human-Fidelity) Standardecho.echo **Status:** Acceptedecho **Context:** Need a verifiable way to distinguish human-originated content from AI-generated noise.echo **Decision:** Adopt the H-FID 1.0 protocol for all primary creative outputs.
