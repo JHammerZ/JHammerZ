@@ -1,6 +1,6 @@
 # 🏛️ JHammerZ | MASTER ARCHITECT
 
-<img src="https://img.shields.io" /> <img src="https://img.shields.io" />
+[![H-Fid Verified](https://img.shields.io)](https://jhammerz.github.io) [![Protocol Spec](https://img.shields.io)](https://jhammerz.github.io)
 
 
 ---
