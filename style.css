@@ -88,3 +88,12 @@ pre {
     min-height: 40px; /* Pre-allocates space to stop layout shift */
     contain: layout;
 }
+.sovereign-footer {
+    padding: 10px;
+    background: #000000; /* Pure black */
+    color: #00FF00;      /* Pure bright green for max contrast */
+    font-family: monospace;
+    border-top: 2px solid #333;
+    min-height: 40px;
+    contain: layout;
+}
