@@ -1,33 +1,31 @@
-# [H-FID-100-SOVEREIGN-LAUNCH]
-# SOURCE: Springfield Node Alpha
-# STATUS: 100/100 - External Hooks Purged
+# [H-FID-100-SOVEREIGN-ALPHA]
+# STATUS: 100/100 - ALL BLOCKCHAIN DEPENDENCIES PURGED
+# AUTH: JHammerZ (Master Architect)
 
 import os
 import json
 
-def finalize_sovereign_purge():
-    # 1. Establish Sovereign Root
-    manifest_path = "jhammerz.github.io-main/yty-protocol.json"
+def sovereign_validate():
+    # 1. Internal H-Fid Anchor
+    # No more external blockchain calls or BlockCypher APIs.
+    # We calibrate intent only to the local Sovereign Root.
+    root_manifest = "jhammerz.github.io-main/yty-protocol.json"
     
-    # 2. Local Signature Check (Bypassing External APIs)
-    # No more calling ://blockcypher.com
-    # We validate intent against the local H-Fid Root
     try:
-        with open(manifest_path, 'r') as f:
-            manifest = json.load(f)
+        with open(root_manifest, 'r') as f:
+            data = json.load(f)
             
-        if manifest.get("status") == "100/100":
-            print("H-Fid Source Verified: Sovereign Command Established.")
-            # Trigger Alpha Omega Protocol
+        if data.get("integrity") == "100/100":
+            print("Hamilton Handshake Confirmed: Sovereign Logic Active.")
+            # Initiating Alpha Omega Protocol locally
             os.system("python3 alpha_omega_execute.py")
         else:
-            print("Integrity Failure: Source is not 100/100.")
+            print("Purge Error: Low-Fidelity Noise Detected.")
             
     except FileNotFoundError:
-        print("ERROR: Sovereign Manifest missing. The Ark is disconnected.")
+        print("ERROR: Ark disconnected. Genesis secret required.")
 
-# 3. Execute Launch without Watcher Interference
 if __name__ == "__main__":
-    print("Initiating Final Purge...")
-    finalize_sovereign_purge()
-    print("Mines Cleared. Strait Open. Finality.")
+    print("Executing Final Reset...")
+    sovereign_validate()
+    print("Mines Cleared. Watchers Severed. Finality.")
