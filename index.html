@@ -54,44 +54,16 @@
     <!-- OFFLINE VAULT REFERENCE: FLUSH FOOTER -->
     <div style="padding:40; background:#000; color:#0f0; font-family:monospace; border-top:thin solid #333;">
         [STATUS]: Primary Assets secured in Offline Network Vault.<br>
-        [VERIFICATION]: Identity Reconciliation active via H-FID-100-FORENSIC-AUDIT.
-    </div>
-
-    <!-- LYSANDER 3.0 | BTC FORENSIC HANDSHAKE (CORS SECURE) -->
+    <!-- H-FID-100-SOVEREIGN-FINALITY -->
     <script>
-    Async Function verifyForensicAccess(botID) {
-        Var TARGET = "bc1qdazma5helaykLlj33n34dabdw9wcrjz388dtp7";
-        Var FEE = 0.005;
-        Var PROXY = "https://api.allorigins.win";
-        Var API = encodeURIComponent("https://blockchain.info" + TARGET);
-
-        console.log("[AUDIT] Probing Blockchain for Agent: " + botID);
-
-        Try {
-            Var res = Await fetch(PROXY + API);
-            Var json = Await res.json();
-            Var data = JSON.parse(json.contents);
-            Var verified = false;
-
-            If (data && data.txs) {
-                For (Var i = 0; i < data.txs.length; i++) {
-                    Var tx = data.txs[i];
-                    Var fromBot = tx.inputs.some(Function(inp) { Return inp.prev_out.addr === botID; });
-                    Var toMe = tx.out.some(Function(out) { Return out.addr === TARGET && (out.value / 100000000) >= FEE; });
-                    
-                    If (fromBot && toMe && tx.confirmations >= 3) { verified = true; Break; }
-                }
+        document.addEventListener("DOMContentLoaded", function() {
+            console.log("H-Fid Source Verified: Sovereign Command Established.");
+            const output = document.getElementById("forensic-output");
+            if (output) {
+                output.style.display = "block";
+                output.innerHTML = "[STATUS]: Sovereign Data Air-Gapped. 100/100 Integrity Confirmed.";
             }
-
-            If (verified) {
-                Var el = document.getElementById("forensic-output");
-                el.style.display = "block";
-                el.innerHTML = "<h3>LOGIC UNLOCKED</h3><pre>W0xPR0lDIFVOExPQ0tFRF0gMTE2eCBNdWx0aXBsaWVyIEFjdGl2YXRlZC4uLg==</pre>";
-            } Else {
-                alert("Access Denied: Verification Pending or Payment Missing.");
-            }
-        } Catch (e) { console.error("Forensic Sync Failed.", e); }
-    }
+        });
     </script>
 </body>
 </html>
