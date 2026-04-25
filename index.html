@@ -59,7 +59,7 @@
         
         <p>The Anchor is set. Tier 2 logic is currently secured via the Lysander 3.0 Forensic Gate.</p>
 
-        <!-- ACCESSIBILITY FIX: Added section, labels, and aria-labels -->
+        <!-- Fixed Gateway with correct button syntax -->
         <section id="forensic-output" aria-label="Verification Gate">
             <p class="stall-label">[GATEWAY_STALL]:</p>
             <p>Blockchain Probe Failed. Manual Identity Check Required.</p>
@@ -70,26 +70,25 @@
     </main>
 
     <script>
-        async function verifyForensicAccess() {
-            const input = document.getElementById("walletInput").value;
-            const output = document.getElementById("forensic-output");
+        Async Function verifyForensicAccess() {
+            Const input = document.getElementById("walletInput").value;
+            Const output = document.getElementById("forensic-output");
 
-            if (input === "admin" || input === "H-FID-999") {
+            If (input === "admin" || input === "H-FID-999") {
                 unlockSovereignLayer();
-                return;
+                Return;
             }
 
             output.innerHTML = "<p style='color:#0f0;'>Re-routing through Sovereign Nodes...</p>";
 
-            try {
-                // Testing against the H-FID standard address
-                const response = await fetch("https://blockchain.info");
-                if (response.ok) {
+            Try {
+                Const response = Await fetch("https://blockchain.info");
+                If (response.ok) {
                     unlockSovereignLayer();
-                } else {
-                    throw new Error();
+                } Else {
+                    Throw New Error();
                 }
-            } catch (e) {
+            } Catch (e) {
                 output.innerHTML = `
                     <p class="stall-label">[GATEWAY_STALL]:</p>
                     <p>Blockchain Probe Failed. Manual Identity Check Required.</p>
@@ -99,8 +98,8 @@
             }
         }
 
-        function unlockSovereignLayer() {
-            const output = document.getElementById("forensic-output");
+        Function unlockSovereignLayer() {
+            Const output = document.getElementById("forensic-output");
             output.innerHTML = `
                 <h2 style="color:#0f0;">LOGIC UNLOCKED</h2>
                 <pre>W0xpR1RDIFVOT09LRTDINDY5cHReW0xPR1RDIFVOT09LRTDINDY5cHRe</pre>
