@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO FIX: Proper syntax for 100/100 score -->
     
-<meta name="description"....JHammerZ | Master Architect | Sovereign Manifest<
+    <title>JHammerZ | Master Architect | Sovereign Manifest</title>
     
-<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
 
     <script type="application/ld+json">
     {
@@ -42,25 +43,23 @@
     <main>
         <h1>Master Architect Manifest</h1>
         
-        <!-- LIVE AUDIT COUNTER -->
         <p>Audit Status: <span id="audit-count" class="audit-badge" style="color: #00ff00; border: 1px solid #00ff00; padding: 2px 8px;">0.00</span> / 100 COMPLETE</p>
         
-<section id="forensic-output" aria-label="Verification Gate">
-    <label for="walletInput" style="display:block; margin-bottom:10px;">Enter Bypass Key:</label>
-    <input type="text" id="walletInput" placeholder="H-FID-999">
-    <button onclick="verifyForensicAccess()" aria-label="Verify Access">Verify Access</button>
-</section>
-
+        <section id="forensic-output" aria-label="Verification Gate">
+            <label for="walletInput" style="display:block; margin-bottom:10px;">Enter Bypass Key:</label>
+            <input type="text" id="walletInput" name="walletInput" placeholder="H-FID-999">
+            <button onclick="verifyForensicAccess()" aria-label="Verify Access">Verify Access</button>
+        </section>
+    </main>
 
     <script>
-        // LIVE AUDIT TICKER LOGIC
         let count = 0;
         const target = 100.00;
-        const speed = 2; // Adjust for speed of count
+        const speed = 2;
 
         const updateCount = () => {
             if (count < target) {
-                count += 0.43; // Randomized increment for effect
+                count += 0.43;
                 document.getElementById('audit-count').innerText = count.toFixed(2);
                 setTimeout(updateCount, speed);
             } else {
@@ -74,7 +73,9 @@
             const input = document.getElementById("walletInput").value;
             const output = document.getElementById("forensic-output");
             if (input === "H-FID-999" || input === "admin") {
-                output.innerHTML = `<h2 style="color:#00ff00;">LOGIC UNLOCKED</h2><pre style="color:#fff; background:#111; padding:20px; border:1px solid #00ff00;">W0xpR1RDIFVOT09LRTDINDY5cHRe</pre>`;
+                output.innerHTML = `<h2 style="color:#00ff00;">LOGIC UNLOCKED</h2><pre style="color:#fff; background:#111; padding:20px; border:1px solid #00ff00; overflow-x:auto;">W0xpR1RDIFVOT09LRTDINDY5cHRe</pre>`;
+            } else {
+                alert("Access Denied.");
             }
         }
     </script>
