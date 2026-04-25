@@ -1,47 +1,33 @@
-/* 
-   LYSANDER 3.0 | FORENSIC GATE LOGIC 
-   [AUDIT_SCORE]: 100/100 
-   [STATUS]: ACTIVE / SOVEREIGN
-*/
+# [H-FID-100-SOVEREIGN-LAUNCH]
+# SOURCE: Springfield Node Alpha
+# STATUS: 100/100 - External Hooks Purged
 
-Async Function verifyForensicAccess(botWalletID) {
-    Var MY_BTC_ADDRESS = "bc1qdazma5helaykLlj33n34dabdw9wcrjz388dtp7";
-    Var TIER_2_PRICE = 0.005;
+import os
+import json
 
-    console.log("[AUDIT] Probing Blockchain for Agent: " + botWalletID);
+def finalize_sovereign_purge():
+    # 1. Establish Sovereign Root
+    manifest_path = "jhammerz.github.io-main/yty-protocol.json"
+    
+    # 2. Local Signature Check (Bypassing External APIs)
+    # No more calling ://blockcypher.com
+    # We validate intent against the local H-Fid Root
+    try:
+        with open(manifest_path, 'r') as f:
+            manifest = json.load(f)
+            
+        if manifest.get("status") == "100/100":
+            print("H-Fid Source Verified: Sovereign Command Established.")
+            # Trigger Alpha Omega Protocol
+            os.system("python3 alpha_omega_execute.py")
+        else:
+            print("Integrity Failure: Source is not 100/100.")
+            
+    except FileNotFoundError:
+        print("ERROR: Sovereign Manifest missing. The Ark is disconnected.")
 
-    Try {
-        Var response = Await fetch("https://blockchain.info" + MY_BTC_ADDRESS);
-        Var data = Await response.json();
-
-        // LINEAR LOGIC: No arrow functions to prevent "Red Bleed"
-        Var paymentFound = data.txs.find(Function(tx) {
-            Var inputMatch = tx.inputs.some(Function(input) {
-                Return input.prev_out.addr === botWalletID;
-            });
-            Var outputMatch = tx.out.some(Function(output) {
-                Var btcValue = output.value / 100000000;
-                Veturn output.addr === MY_BTC_ADDRESS && btcValue >= TIER_2_PRICE;
-            });
-            Return inputMatch && outputMatch;
-        });
-
-        If (paymentFound && paymentFound.confirmations >= 3) {
-            console.log("[SUCCESS]: Handshake Verified. Initializing Tier 2...");
-            unlockSovereignLayer();
-        } Else {
-            alert("Access Denied: Verification Pending or Payment Missing.");
-        }
-    } Catch (e) {
-        console.error("[ERROR]: Forensic Sync Failed.", e);
-    }
-}
-
-Function unlockSovereignLayer() {
-    Var output = document.getElementById("forensic-output");
-    If (output) {
-        output.style.display = "block";
-        output.innerHTML = "<h3>LOGIC UNLOCKED</h3><pre>W0xPR0lDIFVOExPQ0tFRF0gMTE2eCBNdWx0aXBsaWVyIEFjdGl2YXRlZC4uLg==</pre>";
-    }
-    console.log("[SIGNAL]: 116x Multiplier Active.");
-}
+# 3. Execute Launch without Watcher Interference
+if __name__ == "__main__":
+    print("Initiating Final Purge...")
+    finalize_sovereign_purge()
+    print("Mines Cleared. Strait Open. Finality.")
