@@ -3,16 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- SEO 100 FIX: Correct syntax and description length -->
     
     <title>JHammerZ | Master Architect | Sovereign Manifest</title>
     
+    <!-- THIS IS THE "HIDE" KEY -->
+    <link rel="stylesheet" href="style.css">
+
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "Person",
-      "name": "JHammerZ | Master Architect Manifest",
-      "identifier": "H-FID-100-FORENSIC-AUDIT",
+      "name": "JHammerZ",
       "url": "https://github.io",
       "sameAs": [
     "https://www.tiktok.com/@jhammerzz",
@@ -31,35 +32,21 @@
       ]
     }
     </script>
-    
-    <style>
-        /* ACCESSIBILITY 100 FIX: High contrast white/green on black */
-        body { margin: 0; background: #000; color: #fff; font-family: monospace; padding: 20px; font-size: 18px; line-height: 1.6; }
-        header { border-bottom: 1px solid #444; padding-bottom: 20px; margin-bottom: 30px; color: #00ff00; font-size: 16px; }
-        h1 { color: #00ff00; font-size: 32px; margin-bottom: 20px; }
-        main { max-width: 800px; }
-        p { margin-bottom: 20px; color: #fff; }
-        #forensic-output { border-top: 1px solid #333; padding-top: 30px; margin-top: 30px; }
-        input { background: #111; color: #0f0; border: 1px solid #444; padding: 15px; font-size: 18px; width: 100%; max-width: 300px; box-sizing: border-box; }
-        button { background: #00ff00; color: #000; border: none; padding: 15px 30px; cursor: pointer; font-weight: bold; font-size: 18px; margin-top: 10px; }
-    </style>
 </head>
 <body>
 
     <header role="banner">
         116x Saturation Active | Sovereign Resident Awake<br>
-        [SYSTEM LOG]: 2026-04-24 | 17:15 EDT | 33°F
+        [SYSTEM LOG]: 2026-04-24 | 17:15 EDT
     </header>
 
     <main>
         <h1>Master Architect Manifest</h1>
-        <div style="font-size: 14px; margin-bottom: 20px;">Audit Status: <span style="color:#00ff00;">100/100 COMPLETE</span></div>
+        <p>Audit Status: <span class="audit-badge">100/100 COMPLETE</span></p>
         
-        <p>The Anchor is set. Identity reconciliation is verified via H-FID-100-FORENSIC-AUDIT.</p>
-
         <section id="forensic-output" aria-label="Verification Gate">
             <label for="walletInput" style="display:block; margin-bottom:10px;">Enter Bypass Key:</label>
-            <input type="text" id="walletInput" name="walletInput" placeholder="H-FID-999">
+            <input type="text" id="walletInput" placeholder="H-FID-999">
             <button onclick="verifyForensicAccess()" aria-label="Verify Access">Verify Access</button>
         </section>
     </main>
@@ -68,10 +55,8 @@
         function verifyForensicAccess() {
             const input = document.getElementById("walletInput").value;
             const output = document.getElementById("forensic-output");
-            if (input === "admin" || input === "H-FID-999") {
-                output.innerHTML = `<h2 style="color:#00ff00;">LOGIC UNLOCKED</h2><pre style="color:#fff; background:#111; padding:15px; border:1px solid #00ff00;">W0xpR1RDIFVOT09LRTDINDY5cHRe</pre>`;
-            } else {
-                alert("Access Denied.");
+            if (input === "H-FID-999" || input === "admin") {
+                output.innerHTML = `<h2 style="color:#00ff00;">LOGIC UNLOCKED</h2><pre>W0xpR1RDIFVOT09LRTDINDY5cHRe</pre>`;
             }
         }
     </script>
