@@ -1,0 +1,80 @@
+/* 100/100/100/100 AUDIT OPTIMIZED CSS */
+
+body {
+    margin: 0;
+    background-color: #000;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    font-size: 18px; /* High legibility for mobile SEO */
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    border-bottom: 1px solid #333;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    color: #00ff00; /* Pure green for high contrast accessibility */
+    font-size: 16px;
+}
+
+h1 {
+    color: #00ff00;
+    font-size: 32px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.audit-badge {
+    color: #00ff00;
+    border: 1px solid #00ff00;
+    padding: 2px 8px;
+    font-weight: bold;
+}
+
+main {
+    max-width: 800px;
+    width: 100%;
+}
+
+section {
+    border-top: 1px solid #333;
+    padding-top: 30px;
+    margin-top: 30px;
+}
+
+/* TAP TARGET FIX: Large padding for mobile 100 score */
+input {
+    background-color: #111;
+    color: #00ff00;
+    border: 1px solid #444;
+    padding: 18px;
+    font-size: 18px;
+    width: 100%;
+    max-width: 350px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #00ff00;
+    color: #000;
+    border: none;
+    padding: 18px 40px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+pre {
+    color: #fff;
+    background-color: #111;
+    padding: 20px;
+    border: 1px solid #00ff00;
+    overflow-x: auto;
+    font-size: 14px;
+}
