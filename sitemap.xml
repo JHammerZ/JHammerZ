@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="sitemap.xsl"?>
 <urlset xmlns="http://sitemaps.org">
   <url>
-    <loc>https://github.io</loc>
+    <loc>https://jhammerz.github.io</loc>
     <lastmod>2026-04-26</lastmod>
     <changefreq>always</changefreq>
     <priority>1.0</priority>
