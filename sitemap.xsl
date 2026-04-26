@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="#style"?>
-<urlset xmlns="http://sitemaps.org" xmlns:xsl="http://w3.org">
+<urlset xmlns="http://www.sitemaps.org" xmlns:xsl="http://www.w3.org">
   <xsl:stylesheet id="style" version="1.0">
     <xsl:template match="/">
       <html>
