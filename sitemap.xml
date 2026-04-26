@@ -15,3 +15,19 @@
     <priority>0.8</priority>
   </url>
 </urlset>
+
+<ul class="social-graph">
+  <li><a href="https://tiktok.com" rel="me" aria-label="TikTok">📱</a></li>
+  <li><a href="https://linkedin.com" rel="me" aria-label="LinkedIn">💼</a></li>
+  <li><a href="https://youtube.com" rel="me" aria-label="YouTube">📺</a></li>
+  <li><a href="https://instagram.com" rel="me" aria-label="Instagram">📸</a></li>
+  <li><a href="https://facebook.com" rel="me" aria-label="Facebook">👥</a></li>
+  <li><a href="https://carrd.co" rel="me" aria-label="Carrd">🔗</a></li>
+  <li><a href="https://amazon.com" rel="me" aria-label="Amazon Music">🎵</a></li>
+  <li><a href="https://apple.com" rel="me" aria-label="Apple Music">🍎</a></li>
+  <li><a href="https://bandlab.com" rel="me" aria-label="BandLab">🎸</a></li>
+  <li><a href="https://xiaohongshu.com" rel="me" aria-label="XiaoHongShu">🧧</a></li>
+  <li><a href="https://github.com" rel="me" aria-label="GitHub">🛠️</a></li>
+  <li><a href="https://impact.com" rel="me" aria-label="Impact">📊</a></li>
+  <li><a href="https://spotify.com" rel="me" aria-label="Spotify">🎧</a></li>
+</ul>
