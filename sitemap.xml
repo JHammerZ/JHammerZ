@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://sitemaps.org">
-  <!-- ROOT NODE: SOVEREIGN MASTER ARCHITECT -->
+  <!-- PRIMARY SOVEREIGN ROOT -->
   <url>
-    <loc>https://github.io</loc>
-    <lastmod>2024-04-26</lastmod>
+    <loc>https://jhammerz.github.io</loc>
+    <lastmod>2026-04-26</lastmod>
     <changefreq>always</changefreq>
     <priority>1.0</priority>
   </url>
-  <!-- Replace the placeholders below with your actual 13 node URLs -->
+  <!-- SUB-NODE / MICRO-SITE -->
   <url>
-    <loc>https://github.ionode-2</loc>
-    <lastmod>2024-04-26</lastmod>
+    <loc>https://jhammerz.carrd.co/</loc>
+    <lastmod>2026-04-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
