@@ -1,33 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://sitemaps.org">
-  <!-- PRIMARY SOVEREIGN ROOT -->
-  <url>
-    <loc>https://jhammerz.github.io</loc>
-    <lastmod>2026-04-26</lastmod>
-    <changefreq>always</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <!-- SUB-NODE / MICRO-SITE -->
-  <url>
-    <loc>https://jhammerz.carrd.co/</loc>
-    <lastmod>2026-04-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-</urlset>
-
-<ul class="social-graph">
-  <li><a href="https://tiktok.com" rel="me" aria-label="TikTok">📱</a></li>
-  <li><a href="https://linkedin.com" rel="me" aria-label="LinkedIn">💼</a></li>
-  <li><a href="https://youtube.com" rel="me" aria-label="YouTube">📺</a></li>
-  <li><a href="https://instagram.com" rel="me" aria-label="Instagram">📸</a></li>
-  <li><a href="https://facebook.com" rel="me" aria-label="Facebook">👥</a></li>
-  <li><a href="https://carrd.co" rel="me" aria-label="Carrd">🔗</a></li>
-  <li><a href="https://amazon.com" rel="me" aria-label="Amazon Music">🎵</a></li>
-  <li><a href="https://apple.com" rel="me" aria-label="Apple Music">🍎</a></li>
-  <li><a href="https://bandlab.com" rel="me" aria-label="BandLab">🎸</a></li>
-  <li><a href="https://xiaohongshu.com" rel="me" aria-label="XiaoHongShu">🧧</a></li>
-  <li><a href="https://github.com" rel="me" aria-label="GitHub">🛠️</a></li>
-  <li><a href="https://impact.com" rel="me" aria-label="Impact">📊</a></li>
-  <li><a href="https://spotify.com" rel="me" aria-label="Spotify">🎧</a></li>
-</ul>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://w3.org">
+  <xsl:template match="/">
+    <html>
+      <head>
+        <title>Sovereign Graph | Master Architect</title>
+        <style>
+          body { background: #0a0a0a; color: #00ff00; font-family: monospace; padding: 30px; }
+          .social-graph { list-style: none; padding: 0; }
+          .social-graph li { margin: 12px 0; border: 1px solid #00ff00; padding: 12px; border-radius: 4px; transition: 0.3s; }
+          .social-graph li:hover { background: #00ff00; }
+          .social-graph li:hover a { color: #000; }
+          a { color: #fff; text-decoration: none; font-weight: bold; display: block; }
+          h1 { border-bottom: 1px solid #333; padding-bottom: 10px; color: #00ff00; }
+        </style>
+      </head>
+      <body>
+        <h1>13-NODE SOVEREIGN GRAPH</h1>
+        <ul class="social-graph">
+          <li><a href="https://www.tiktok.com/@jhammerzz">TikTok</a></li>
+          <li><a href="https://www.linkedin.com/in/JHammerZ">LinkedIn</a></li>
+          <li><a href="https://www.youtube.com/@JHammerZ">YouTube</a></li>
+          <li><a href="https://www.instagram.com/jhammerzz">Instagram</a></li>
+          <li><a href="https://www.facebook.com/profile.php?id=61574652435664">Facebook</a></li>
+          <li><a href="https://jhammerz.carrd.co/">Carrd</a></li>
+          <li><a href="https://music.amazon.com/artists/B0SGL7W/jhammerz">Amazon Music</a></li>
+          <li><a href="https://music.apple.com/us/artist/jhammerz/1845798346">Apple Music</a></li>
+          <li><a href="https://music.bandlab.com/artist/781334284">BandLab</a></li>
+          <li><a href="https://www.xiaohongshu.com/user/profile/JHammerZ">XiaoHongShu</a></li>
+          <li><a href="https://github.com/JHammerZ/jhammerz.github.io">GitHub</a></li>
+          <li><a href="https://app.impact.com/secure/mediapartner/home/pview.ihtml#/">Impact</a></li>
+          <li><a href="https://open.spotify.com/artist/7vRd2EDcwuEYWtyqW28a79">Spotify</a></li>
+        </ul>
+      </body>
+    </html>
+  </xsl:template>
+</xsl:stylesheet>
