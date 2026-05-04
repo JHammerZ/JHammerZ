@@ -22,3 +22,4 @@ I am Joshua Hamilton, a verified **Master Architect** specializing in the govern
 }
 Impact-Site-Verification: 53cd98b3-5f05-43f2-85e9-67aa9e746fdc
 google-site-verification: google8cb85ae22344928a.html
+<meta name="facebook-domain-verification" content="gr4gxqdgze694d049fp6gem46ur9zd" />
