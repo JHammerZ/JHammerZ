@@ -2,7 +2,7 @@
 
 [![H-Fid Verified](https://img.shields.io)](https://jhammerz.github.io) [![Protocol Spec](https://img.shields.io)](https://jhammerz.github.io)
 
-
+![iHeartRadio](https://www.iheart.com/artist/jhammerz-43230858))
 ---
 
 ## ⚡ The Sovereign Manifest
