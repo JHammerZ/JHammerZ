@@ -3,6 +3,10 @@
 [![H-Fid Verified](https://img.shields.io)](https://jhammerz.github.io) [![Protocol Spec](https://img.shields.io)](https://jhammerz.github.io)
 
 ![iHeartRadio](https://www.iheart.com/artist/jhammerz-43230858))
+
+## [LIVE EVIDENCE → jhammerz.github.io](https://jhammerz.github.io)
+**Forensic Chain:** 7,315 CI Runs | Wayback May 17-18 | 202K Views Verified
+
 ---
 
 ## ⚡ The Sovereign Manifest
