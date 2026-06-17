@@ -1,5 +1,5 @@
-# 🏛️ JHammerZ | MASTER ARCHITECT
-
+# 🏛️ JHammerZ | MASTER ARCHITECT | MUSICIAN
+[Architecture Verified](https://img.shields.io/badge/Architecture-Live-brightgreen)
 [![H-Fid Verified](https://img.shields.io)](https://jhammerz.github.io) [![Protocol Spec](https://img.shields.io)](https://jhammerz.github.io)
 
 ![iHeartRadio](https://www.iheart.com/artist/jhammerz-43230858))
@@ -24,9 +24,6 @@ Impact-Site-Verification: 53cd98b3-5f05-43f2-85e9-67aa9e746fdc
 google-site-verification: google8cb85ae22344928a.html
 <meta name="facebook-domain-verification" content="gr4gxqdgze694d049fp6gem46ur9zd" />
 google-site-verification=IU-5FLh-DgQcw73G631RMo2Bn9TW3BxXT5xFOwvA_m4
-
-# JHammerZ | MASTER ARCHITECT | MUSICIAN
-[Architecture Verified](https://img.shields.io/badge/Architecture-Live-brightgreen)
 
 _______________________________________________________________________________________________________________________________________________________________
 
