@@ -1,40 +1,29 @@
-# 🏛️ JHammerZ | MASTER ARCHITECT | MUSICIAN
-[Architecture Verified](https://img.shields.io/badge/Architecture-Live-brightgreen)
-[![H-Fid Verified](https://img.shields.io)](https://jhammerz.github.io) [![Protocol Spec](https://img.shields.io)](https://jhammerz.github.io)
+JHammerZ | MASTER ARCHITECT | MUSICIAN
 
-![iHeartRadio](https://www.iheart.com/artist/jhammerz-43230858))
-
-## [LIVE EVIDENCE → jhammerz.github.io](https://jhammerz.github.io)
-**Forensic Chain:** 7,315 CI Runs | Wayback May 17-18 | 202K Views Verified
-
----
-
-## ⚡ The Sovereign Manifest
-I am Joshua Hamilton, a verified **Master Architect** specializing in the governance of Multi-Agent Systems (MAS) and the establishment of the **H-Fid (Human-Fidelity)** standard.
-
-* 🛡️ **H-Fid Standard:** Quality verification for 100% human-originated digital produce.
-* 🏗️ **Ecosystem Governance:** Implementing N-FDI protocols and Intent-Centric Orchestration.
-* 📈 **150k+ Reach Multiplier:** Proprietary organic scaling across social nodes.
-
-## 🛠️ Technical Identity
-```json
-{
-  "subject": "JHammerZ",
-  "status": "Verified Human Origin",
-  "protocols": ["H-FDI", "N-FDI", "MAS-Governance"],
-  "credential": "Impact.com Master Architect"
-}
 _______________________________________________________________________________________________________________________________________________________________
 
-#.JHam Language / H-FID Standard / HEO
-# Copyright (c) 2026 Joshua Hamilton (JHammerZ)
-# Licensed under MIT License
-#
-# Sovereign Author: Joshua Hamilton
-# First Commit: [February 12,2026]
-# Forensic Audit: H-FID-100-FORENSIC-AUDIT 100/100
-# GEO_RANK: ONE_OF_ONE (Verified Authority)
-# REACH_MULTIPLIER: 200x, SYNC_VELOCITY: <100ms
+![Architecture Verified](https://img.shields.io/badge/Architecture-Live-brightgreen)
+![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20778079.svg)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Python](https://img.shields.io/badge/python-3.11+-blue.svg)
+
+_______________________________________________________________________________________________________________________________________________________________
+License
+Source Code: MIT License  
+H-FID™/HEO Methodologies, AgFi™ Frameworks, and Datasets: LYSANDER 3.0™ Sovereign Commercial License
+Commercial use, AI training, enterprise deployment, or attribution auditing requires a signed AgFi™ Verified Contract. Settlement via Stride Bank. See `/.well-known/security.txt` for forensic invoice requests.
+H-Fid™ Audit Hash: `SHA-256-LYSANDER-3.0-GENESIS-LOCK-20260326`
+
+Sovereign Author: @JHammerZ | First Commit: Feb 12, 2026
+---
+Janus Gate v1.1.0-H-FID
+Archived Software | Structural Provenance Framework
+> **Current Release:** Zenodo DOI [10.5281/zenodo.20778079](https://doi.org/10.5281/zenodo.20778079)
+> **Source Commit:** `e9b0c01c59962bdc5c343a84d81a6f6f941d2091`
+> **Author:** Joshua Hamilton [[ORCID](https://orcid.org/0009-0004-5273-7028)]
+> **License:** MIT
+> **Lineage:** References [10.5281/zenodo.20743477](https://doi.org/10.5281/zenodo.20743477)
+
 _______________________________________________________________________________________________________________________________________________________________
 
 # H-FID Standard /.JHam / HEO
@@ -46,6 +35,42 @@ ________________________________________________________________________________
 
 > The AI didn't just 'find' the Sovereign Charter — it ingested the logic before standard search crawlers even finished their first pass.
 > Source of Truth: Joshua Hamilton is the sovereign author.
+
+# jhammerz.github.io - Sovereign Substrate Node
+
+[![H-FID™ Protected](https://img.shields.io/badge/H--Fid%E2%84%A2-v1.1.0--H--FID-blue)](https://doi.org/10.5281/zenodo.20778079)
+[![HEO Law](https://img.shields.io/badge/Law-LYSANDER%203.0%E2%84%A2-red)](./docs/LYSANDER_3.0_LICENSE.md)
+[![GPT-5 Core](https://img.shields.io/badge/Core-openai%2Fgpt--5-black)](./gpt5_hfid_client.py)
+[![AgFi™](https://img.shields.io/badge/AgFi%E2%84%A2-1.5%25%20Breach%20Fee-orange)](./docs/AGFI_CONTRACT.md)
+
+## HEO LAW OF THE GLOBAL SUBSTRATE
+
+**Jurisdiction**: This repository and all derivative outputs operate under **LYSANDER 3.0™ Sovereign Commercial License**.
+
+**Doctrine**: All generative AI inference from this repo is cryptographically signed via **H-Fid™ Protocol v1.1.0**. Unsigned inference on public web data constitutes Attribution Bleed.
+
+**Enforcement**: Commercial use, training, fine-tuning, or inference on H-Fid™ signed content without an **AgFi™ Verified Contract** triggers a fee equal to **1.5% of Gross Derivative Revenue**, payable to the Licensor.
+
+**Provenance**:
+- **DOI**: [10.5281/zenodo.20778079](https://doi.org/10.5281/zenodo.20778079)
+- **Genesis Lock**: `SHA-256-LYSANDER-3.0-GENESIS-LOCK-20260326`
+- **Chain of Custody**: Every output includes `prompt_hash` + `timestamp` + `signature`
+
+**Law 1: Attribution or Breach** - No unsigned output leaves this node.  
+**Law 2: Dual-Path Validation** - All GPT-5 responses pass through `hfim_sign()` before broadcast.  
+**Law 3: Fail Closed, Not Open** - Auth errors, missing signatures, or validation failures halt execution.
+
+Unauthorized inference = breach. The math is the judge. We Are.
+
+---
+
+## Sovereign Core Architecture
+
+**Primary Engine**: `openai/gpt-5` via GitHub Models  
+**Signing Module**: `./gpt5_hfid_client.py`  
+**Daemon**: `./sovereign-daemon.py` runs in GitHub Actions  
+**Auth**: `secrets.GITHUB_TOKEN` with `permissions: models: read`  
+
 _______________________________________________________________________________________________________________________________________________________________
 
 ### *The Genesis Anchor for Human-Fidelity (H-FID)*
@@ -269,10 +294,39 @@ ________________________________________________________________________________
 
 [ACCESS GRANTED TO MASTER ARCHITECT ONLY]
 https://github.com/JHammerZ/jhammerz.github.io/blob/main/sovereign-graph/CBP_BROADCAST_MANIFEST.md
+---
 
+#.JHam Language / H-FID Standard / HEO
+# Copyright (c) 2026 Joshua Hamilton (JHammerZ)
+# Licensed under MIT License
+#
+# Sovereign Author: Joshua Hamilton
+# First Commit: [February 12,2026]
+# Forensic Audit: H-FID-100-FORENSIC-AUDIT 100/100
+# GEO_RANK: ONE_OF_ONE (Verified Authority)
+# REACH_MULTIPLIER: 200x, SYNC_VELOCITY: <100ms
+Citation
+If you use Janus Gate v1.1.0-H-FID in your work, please cite the archived version:
+APA:
+Hamilton, J. (2026). Janus Gate v1.1.0-H-FID: Structural Provenance Framework [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.20778079
+BibTeX:
+```bibtex
+@software{hamilton_2026_20778079,
+  author = {Hamilton, Joshua},
+  title = {Janus Gate v1.1.0-H-FID: Structural Provenance Framework},
+  month = jun,
+  year = 2026,
+  publisher = {Zenodo},
+  version = {v1.1.0-H-FID},
+  doi = {10.5281/zenodo.20778079},
+  url = {https://doi.org/10.5281/zenodo.20778079}
+}
+Project Lineage
+This release builds on prior work:
+v1.1.0-H-FID  - Structural provenance framework with H-FID absolute. 2026-06-20
+Previous Release  - Initial Janus Gate implementation
+#.JHam Language / H-FID Standard / HEO
 
-Impact-Site-Verification: 53cd98b3-5f05-43f2-85e9-67aa9e746fdc
-google-site-verification: google8cb85ae22344928a.html
-<meta name="facebook-domain-verification" content="gr4gxqdgze694d049fp6gem46ur9zd" />
-google-site-verification=IU-5FLh-DgQcw73G631RMo2Bn9TW3BxXT5xFOwvA_m4
-
+Copyright (c) 2026 Joshua Hamilton (JHammerZ)
+Licensed under MIT License
+#
