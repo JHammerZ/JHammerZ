@@ -1,6 +1,4 @@
 JHammerZ | MASTER ARCHITECT | MUSICIAN
-
-
 _______________________________________________________________________________________________________________________________________________________________
 
 ![Architecture Verified](https://img.shields.io/badge/Architecture-Live-brightgreen)
