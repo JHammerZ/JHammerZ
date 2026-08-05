@@ -5,7 +5,10 @@ ________________________________________________________________________________
 ![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20778079.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Python](https://img.shields.io/badge/python-3.11+-blue.svg)
-
+![H-FID](https://img.shields.io/badge/H--FID-e57197f4-blue)
+![BTC Verified](https://img.shields.io/badge/BTC-Verified-f7931a)
+![IPFS Mirror](https://img.shields.io/badge/IPFS-Mirrored-65c2cb)
+![Zenodo](https://img.shields.io/badge/DOI-10.5281/zenodo.20778079-blue)
 _______________________________________________________________________________________________________________________________________________________________
 License
 Source Code: MIT License  
